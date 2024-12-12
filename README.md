@@ -12,19 +12,17 @@ The MxMH dataset is designed to explore potential correlations between a person�
 
 Ultimately, the goal is to either refine the application of MT or offer intriguing insights into the relationship between music and mental health.
 
-
-
 ## Analysis: The Impact of Music on Mental Health and Implications for Music Therapy
 
 The MxMH dataset explores the relationship between music preferences, streaming habits, and self-reported mental health conditions such as Depression, Anxiety, Insomnia, and OCD. The findings from the data can contribute to the understanding of how music affects mental health and the potential application of Music Therapy (MT).
 
 ### 1. Streaming Service Usage and Mental Health
+
 **Question:** Is there a correlation between the primary streaming service used and mental health indicators (anxiety, depression, insomnia, OCD)?
 
 **Analysis:** Compare mental health scores across different streaming services (e.g., Spotify, Pandora, YouTube Music).
 
 ![Screenshot 2024-08-13 at 1 20 24 PM](https://github.com/user-attachments/assets/240410c1-310f-45c6-bd3a-ee74ad7920de)
-
 
 + Different streaming services are associated with varying levels of mental health conditions.
 + Pandora users generally report lower levels of Depression, Anxiety, Insomnia, and OCD, suggesting a potentially less negative or more positive impact of this service on mental health.
@@ -32,13 +30,13 @@ The MxMH dataset explores the relationship between music preferences, streaming 
 
 **Implication:** The differences between streaming services could be related to user demographics, the type of music content provided, or the specific ways in which people engage with these platforms. This insight is valuable for MT practitioners when recommending music platforms or content.
 
-###  2. Favorite Genre and Mental Health
+### 2. Favorite Genre and Mental Health
+
 **Question:** Does the favorite genre of music have an impact on mental health conditions?
 
 **Analysis:** Compare mental health scores for different favorite genres.
 
 ![Screenshot 2024-08-13 at 1 23 13 PM](https://github.com/user-attachments/assets/981a576f-17ed-4e4c-8670-ba5f6d75dfd3)
-
 
 + Prior to analysis, the dataset was cleaned, sorted by genre and the mean for each mental health condition was calculated. 
 + As observed in the bar charts, the genre of music listened to showed correlations with mental health outcomes.
@@ -47,6 +45,7 @@ The MxMH dataset explores the relationship between music preferences, streaming 
 **Implication:** Certain genres might exacerbate or alleviate mental health conditions. MT practitioners could leverage these insights to tailor music therapy interventions more effectively. For instance, avoiding certain genres or emphasizing others could potentially improve mental health outcomes.
 
 ### 3. Music Effects on Mental Health Conditions
+
 **Question:** What are the self-reported effects of music on various mental health conditions (anxiety, depression, insomnia, OCD)?
 
 **Analysis:** Analyze the 'Music effects' column in relation to mental health scores.
@@ -56,10 +55,10 @@ The MxMH dataset explores the relationship between music preferences, streaming 
 + The dataset reveals diverse effects of music on individuals with varying levels of Depression, Anxiety, Insomnia, and OCD.
 + A significant number of individuals report that music improves their condition, particularly for Anxiety and Depression. However, a notable portion also reports no effect or even a worsening of symptoms.
 
-
 **Implication:** Music therapy should be personalized, as the effects of music on mental health are not uniform. While some individuals might find music therapeutic, others might experience no benefit or even a deterioration in their condition. Understanding a patient’s specific reactions to music is crucial for effective MT interventions.
 
 ### 4. Hours Spent on Music and Mental Health
+
 **Question:** How does the number of hours spent listening to music per day affect mental health?
 
 **Analysis:** Analyze the relationship between hours per day and mental health scores.
@@ -79,11 +78,10 @@ The MxMH dataset explores the relationship between music preferences, streaming 
 **Implication:** Even though there are some positive correlations, the low r values and r-squared values indicate that there is no significant relationship between the hours spent listening to music per day and the level of the four types of mental health issues.
 
 ### Conclusion:
+
 The analysis of the MxMH dataset suggests that music has a complex and multifaceted impact on mental health. While certain types of music or streaming services may correlate with higher mental health symptoms, others might offer therapeutic benefits. The key takeaway for Music Therapy is the need for personalized approaches—considering the type of music, the amount of time spent listening, and individual patient responses to different genres and platforms. This personalized approach could maximize the therapeutic benefits of music, helping individuals with mental health conditions more effectively.
 
-
-
- ## Synopsis of Process
+## Synopsis of Process
 
 To tackle this challenge we...
 
@@ -95,9 +93,8 @@ To tackle this challenge we...
 6. Cleaned, merged and tested scripts.
 7. Used observations to create an analysis.
 8. Outlined and created presentation.
-10. Presented findings.
-11. Updated analysis and presentation based on feedback.
-
+9. Presented findings.
+10. Updated analysis and presentation based on feedback.
 
 ## Resources
 
@@ -106,11 +103,17 @@ To tackle this challenge we...
 + PowerPoint
 + ChatGPT
 
-
-
 ## Table of Contents
+
 + main.ipynb (Code used to clean and analyze the dataset)
 + Music and Mental Health.pdf (Slide Deck used for presentation)
 + Data folder (Music and Mental Health Survey dataset)
 + Project 1 (Original Project Requirements)
 + README.md
+
+## Contributors
+
++ Heather Bowman
++ Khalia Boone
++ Stephanie Ayala
++ Yen Lu
